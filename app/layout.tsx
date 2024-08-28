@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import "../app.css";
 
-export const metadata: Metadata = {
-  title: "Home",
-  description: "Welcome to Next.js",
+export const metadata = {
+  title: "Image Component with Next.js",
+  description:
+    "This page demonstrates the usage of the next/image component with live examples. This component is designed to automatically optimize images on-demand as the browser requests them.",
 };
 
 export default function RootLayout({
